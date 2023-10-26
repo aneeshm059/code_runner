@@ -1,7 +1,7 @@
 {
   "name": "code-runner",
   "version": "0.1.0",
-  "home": "https://aneeshm059.github.io/code_runner",
+  "homepage": "https://aneeshm059.github.io/code_runner",
   "private": true,
   "dependencies": {
     "@monaco-editor/react": "^4.5.2",
