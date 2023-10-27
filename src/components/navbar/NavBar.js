@@ -18,9 +18,9 @@ const NavBar = ({ runButtonHandler, languageHandler }) => {
     }
   });
   return (
-    <div className="flex justify-between items-start mt-0 py-4 px-8 border shadow shadow-gray-200 bg-white text-slate-600">
+    <div className="flex md:flex-row flex-col justify-between items-center md:items-start mt-0 py-4 px-8 border shadow shadow-gray-200 bg-white text-slate-600">
       <div>Code Runner &lt; / &gt;</div>
-      <div className="flex justify-end space-x-8 text-sm">
+      <div className="flex md:flex-row flex-col justify-end md:space-x-8 space-y-4 md:space-y-0 mt-3 md:mt-0 text-sm">
         <button
           className="hover:border hover:rounded hover:border-bg-black"
           onClick={runButtonHandler}
